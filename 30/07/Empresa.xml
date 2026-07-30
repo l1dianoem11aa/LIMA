@@ -1,9 +1,6 @@
-<pedido>
-    <cliente>
-        <nome>Maria</nome>
-    </cliente>
-    <itens>
-        <item>Notebook</item>
-        <item>Mouse</item>
-    </itens>
-</pedido>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<empresa>
+<nome>Tech e Sistemas</nome>
+<cidade>Curitiba</cidade>
+</empresa>

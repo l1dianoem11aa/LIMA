@@ -1,4 +1,19 @@
-<produtos>
-    <nome_produto>Notebook</nome_produto>
-    <preco>4500</preco>
-</produtos>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escola>
+
+<aluno matricula="202501" curso="Informática">
+
+<nome>Lucas e Ana</nome>
+
+<disciplinas>
+
+<disciplina>Banco de Dados</disciplina>
+
+<disciplina>Lógica de Programação</disciplina>
+
+</disciplinas>
+
+</aluno>
+
+</escola>
