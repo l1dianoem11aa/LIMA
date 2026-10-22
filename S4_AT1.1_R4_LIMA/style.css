@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(87, 9, 53);
+    color: rgb(237, 194, 219);
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(55, 5, 33);
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+}
