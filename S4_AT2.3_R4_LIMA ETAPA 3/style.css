@@ -1,0 +1,106 @@
+
+/* Estilo geral da página */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #1d1c1d;
+    color: #ffc3e3;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1919;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #9f6573;
+}
+
+h2 {
+    color: hsl(341, 100%, 82%);
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Cartões dos produtos */
+article {
+    background-color: #202024;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+/* Preços e textos em destaque */
+strong {
+    color: #ff00ae;
+}
+
+/* Imagem dos produtos */
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #e89ac2;
+}
+
+/* Tabela comparativa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #202024;
+    margin: 15px 0;
+}
+
+/* Células e títulos da tabela */
+th,
+td {
+    border: 1px solid #ffc3e3;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Cabeçalho da tabela */
+th {
+    color: #ffc3e3;
+    background-color: #1a1919;
+}
+
+/* Conteúdo da tabela */
+td {
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #202024;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        overflow-wrap: anywhere;
+    }
+}
