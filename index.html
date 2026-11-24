@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Esportiva</title>
+
+    <style>
+        /* Fundo azul bem escuro quase preto e texto claro */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #060b19;
+            color: #f1f2f6;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #1e3799;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #0c1428;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        /* Cor e imagem de fundo (degradê) no cabeçalho da tabela */
+        th {
+            background-color: #0c2461;
+            background-image: linear-gradient(to bottom, #1e3799, #0c2461);
+            color: white;
+            border: 1px solid #3c4b6e;
+        }
+
+        td {
+            border: 1px solid #3c4b6e;
+        }
+
+        /* Linha alternada em tom escuro suave */
+        .cinza {
+            background-color: #131e3a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Loja Esportiva</h1>
+    </header>
+
+    <main>
+        <!-- 1. LISTAS -->
+        <section>
+            <h2>Categorias</h2>
+            <ul>
+                <li>Futebol
+                    <ul>
+                        <li>Chuteira</li>
+                        <li>Bola</li>
+                    </ul>
+                </li>
+                <li>Corrida
+                    <ul>
+                        <li>Tênis</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Mais Vendidos</h2>
+            <ol>
+                <li>Tênis</li>
+                <li>Bola</li>
+            </ol>
+
+            <h2>Termos</h2>
+            <dl>
+                <dt>Dry-Fit</dt>
+                <dd>Tecido que absorve o suor.</dd>
+            </dl>
+        </section>
+
+        <!-- 2. TABELA DE PRODUTOS -->
+        <section>
+            <h2>Produtos</h2>
+
+            <table width="100%" cellpadding="8" cellspacing="0">
+                <caption>Tabela de Preços</caption>
+
+                <thead>
+                    <tr>
+                        <th width="20%">Tipo</th>
+                        <th width="40%">Nome</th>
+                        <th width="25%">Preço</th>
+                        <th width="15%">Tem?</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2" align="center" valign="middle">Calçados</td>
+                        <td>Tênis</td>
+                        <td align="right">R$ 200,00</td>
+                        <td align="center">Sim</td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Chuteira</td>
+                        <td align="right">R$ 150,00</td>
+                        <td align="center">Sim</td>
+                    </tr>
+                    <tr>
+                        <td align="center">Objeto</td>
+                        <td>Bola</td>
+                        <td align="right">R$ 80,00</td>
+                        <td align="center">Não</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4" align="center">Total: 3 produtos</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- 3. TABELA ENCADEADA -->
+        <section>
+            <h2>Kit Promoção</h2>
+
+            <table width="100%" cellpadding="8" cellspacing="0">
+                <caption>Combo Básico</caption>
+                <tr>
+                    <th width="30%">Kit</th>
+                    <th width="70%">Itens</th>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle">Kit Corrida</td>
+                    <td>
+                        <table width="100%" cellpadding="6" cellspacing="0">
+                            <tr>
+                                <td>1 Tênis</td>
+                            </tr>
+                            <tr>
+                                <td>1 Meia</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
